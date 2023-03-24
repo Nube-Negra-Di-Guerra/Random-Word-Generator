@@ -64,7 +64,7 @@ body{
 
 @media (min-width:300px) and (max-width:500px) {
     body{
-        width: 65%;
+        width: 100%;
         margin: 0;
         background: linear-gradient(to top left, azure, lightgray, azure);
         height: 100vh;
@@ -79,7 +79,7 @@ body{
     .container{
         box-shadow: 0 6px 10px rgba(0, 0, 0, 10);
         padding: 25px;
-        text-align:center;
+        text-align: center;
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
@@ -108,9 +108,9 @@ body{
         font-weight: light;
         justify-content: center;
         align-items: center;
-        font-size: 14px;
-        width: 50%;/*
-        margin-left: 45px;*/
+        font-size: 14px;/*
+        width: 50%;*/
+        margin-left: 45px;
         margin-bottom: 40px;
     }
     
@@ -121,7 +121,7 @@ body{
         border-color: rgba(255, 255, 255, 0.3);
         text-transform: uppercase;
         background-color: rgba(255, 255, 255, .6);
-        width: fit-content; /*%*/
+        width: fit-content;
         font-size: 12px;
         font-weight: 600;
         cursor: pointer;
