@@ -78,6 +78,7 @@ body{
     .container{
         box-shadow: 0 6px 10px rgba(0, 0, 0, 10);
         padding: 25px;
+        text-align: center; 
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
@@ -93,11 +94,11 @@ body{
     .header{
         position: relative;
         text-align: center; 
-        margin: -40px 100px 0 100px;
+        margin: -40px 50px 0 50px;
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
-        font-size: 13px;
+        font-size: 22px;
         white-space: nowrap;
     }
     
@@ -106,7 +107,7 @@ body{
         font-weight: light;
         font-size: 14px;
         width: 80%;
-        margin-left: 45px;
+        margin-left: 0px;
         margin-bottom: 40px;
     }
     
