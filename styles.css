@@ -83,13 +83,16 @@ body{
         border-radius: 25px;
         width: 65%;
         position: static;
-        top: 14%;
+        top: 10%;
+        justify-content: center;
+        align-items: center;
         
     }
     
     .header{
         position: static;
-        top: 50px;
+        top: 15px;
+        align-text: center;
         margin: 0 0 0 10px;
         font-weight: 800;
         letter-spacing: 1px;
