@@ -84,15 +84,14 @@ body{
         border-radius: 25px;
         justify-content: center;
         align-items: center;
-        width: 65%;
-        position: relative;
-        top: 6%;
+        width: 65%;/*
+        position: relative;*/
+        margin-top: 6%;
     }
     
-    .header{
+    .header{/*
         position: fixed;
-        top: 20px;
-        margin: 0 0 0 10px;
+*/      margin-top: 20px;
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
