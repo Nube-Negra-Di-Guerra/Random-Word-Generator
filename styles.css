@@ -61,7 +61,7 @@ body{
     font-weight: 500;
     color: rgb(56, 52, 52);
 }
-
+/*
 @media (min-width:300px) and (max-width:500px) {
     body{
         margin: 0;
@@ -137,3 +137,4 @@ body{
         width: 80%;
     }
 }
+*/
