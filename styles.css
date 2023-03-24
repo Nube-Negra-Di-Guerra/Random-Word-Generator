@@ -69,8 +69,8 @@ body{
         height: 100vh;
         display: grid;
         grid-template-columns: 1; 
-        align-items: center;/*
-        justify-content: center;*/
+        align-items: center;
+        justify-content: center;
         text-align: center; 
         font-family: Georgia, Times, 'Times New Roman', serif;
     }
@@ -81,21 +81,21 @@ body{
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
-        width: 65%;/*
+        width: 65%;
         position: relative;
         top: 14%;
-        left: 14px;*/
+        left: 14px;
         
     }
     
     .header{
         position: fixed;
-        top: 50px;
+        top: 20px;
         margin: 0 0 0 10px;
         font-weight: 800;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         width: 50%;
-        font-size: 13px;
+        font-size: 15px;
         white-space: nowrap;
     }
     
@@ -115,12 +115,12 @@ body{
         border-color: rgba(255, 255, 255, 0.3);
         text-transform: uppercase;
         background-color: rgba(255, 255, 255, .6);
-        width: 2%;
+        width: fit-content; /*%*/
         font-size: 12px;
         font-weight: 600;
         cursor: pointer;
-        white-space: nowrap;
-        margin-left: -175px;
+        white-space: nowrap;/*
+        margin-left: -175px;*/
     }
     
     .btn:hover{
