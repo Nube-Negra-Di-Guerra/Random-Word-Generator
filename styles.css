@@ -19,15 +19,11 @@ body{
     width: 100%;
     position: relative;
     top: 30%;
-    left:00%;
-    right:0%;
 }
 
 .header{
-    position: relative;
+    position: fixed;
     top: 50px;
-    left:00%;
-    right:0%;
     margin: 0px;
     font-weight: 800;
     letter-spacing: 1px;
