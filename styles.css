@@ -82,7 +82,7 @@ body{
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
         width: 65%;
-        position: static;
+        position: relative;
         top: 10%;
         justify-content: center;
         align-items: center;
@@ -90,7 +90,7 @@ body{
     }
     
     .header{
-        position: static;
+        position: relative;
         top: 15px;
         align-text: center;
         margin: 0 0 0 10px;
