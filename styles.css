@@ -94,7 +94,7 @@ body{
     .header{
         position: relative;
         text-align: center; 
-        margin: -40px 50px 0 50px;
+        margin: -60px 50px 0 50px;
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
@@ -107,7 +107,7 @@ body{
         font-weight: light;
         font-size: 14px;
         width: 80%;
-        margin-left: 40px;
+        margin-left: 30px;
         text-align: center; 
         margin-bottom: 40px;
     }
