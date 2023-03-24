@@ -81,30 +81,36 @@ body{
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
-        width: 65%;
+        justify-content: center;
+        align-items: center;
+        width: 65%;/*
         position: relative;
         top: 14%;
-        left: 14px;
+        left: 14px;*/
         
     }
     
-    .header{
+    .header{/*
         position: fixed;
-        top: 20px;
+        top: 20px;*/
         margin: 0 0 0 10px;
         font-weight: 800;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         width: 50%;
-        font-size: 15px;
+        font-size: 17px;
         white-space: nowrap;
+        justify-content: center;
+        align-items: center;
     }
     
-    .header2{
-        margin: 0px 0px 20px 0px;
+    .header2{/*
+        margin: 0px 0px 20px 0px;*/
         font-weight: light;
+        justify-content: center;
+        align-items: center;
         font-size: 14px;
-        width: 50%;
-        margin-left: 45px;
+        width: 50%;/*
+        margin-left: 45px;*/
         margin-bottom: 40px;
     }
     
