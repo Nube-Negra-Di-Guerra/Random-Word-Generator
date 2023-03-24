@@ -68,10 +68,10 @@ body{
         background: linear-gradient(to top left, azure, lightgray, azure);
         height: 100vh;
         display: grid;
-        grid-template-columns: 1; /*
+        grid-template-columns: 1; 
         align-items: center;
         justify-content: center;
-        text-align: center; */
+        text-align: center; 
         font-family: Georgia, Times, 'Times New Roman', serif;
     }
     
