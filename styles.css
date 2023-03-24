@@ -61,7 +61,7 @@ body{
     font-weight: 500;
     color: rgb(56, 52, 52);
 }
-/*
+
 @media (min-width:300px) and (max-width:500px) {
     body{
         margin: 0;
@@ -69,8 +69,8 @@ body{
         height: 100vh;
         display: grid;
         grid-template-columns: 1; 
-        align-items: center;
-        justify-content: center;
+        align-items: center;/*
+        justify-content: center;*/
         text-align: center; 
         font-family: Georgia, Times, 'Times New Roman', serif;
     }
@@ -88,10 +88,10 @@ body{
         
     }
     
-    .header{/*
+    .header{
         position: fixed;
         top: 50px;
-        margin: 0 0 0 10px;*/
+        margin: 0 0 0 10px;
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
@@ -119,8 +119,8 @@ body{
         font-size: 12px;
         font-weight: 600;
         cursor: pointer;
-        white-space: nowrap;/*
-        margin-left: -175px;*/
+        white-space: nowrap;
+        margin-left: -175px;
     }
     
     .btn:hover{
@@ -137,4 +137,4 @@ body{
         width: 80%;
     }
 }
-*/
+
