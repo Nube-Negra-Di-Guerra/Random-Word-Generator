@@ -64,6 +64,7 @@ body{
 
 @media (min-width:300px) and (max-width:500px) {
     body{
+        width: 65%;
         margin: 0;
         background: linear-gradient(to top left, azure, lightgray, azure);
         height: 100vh;
@@ -84,8 +85,8 @@ body{
         border-radius: 25px;
         justify-content: center;
         align-items: center;
-        width: 65%;/*
-        position: relative;*/
+        width: 65%;
+        position: relative;
         margin-top: 6%;
     }
     
