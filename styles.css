@@ -92,7 +92,7 @@ body{
     
     .header{
         position: relative;
-        align-text: center;
+        text-align: center; 
         margin: -40px 100px 0 100px;
         font-weight: 800;
         letter-spacing: 1px;
@@ -132,12 +132,12 @@ body{
     }
 
     .footer{
-        align-text: center;
+        text-align: center; 
         margin: 0px;
         font-size: 18px;
         font-weight: 500;
         color: rgb(56, 52, 52);
         width: 85%;
-        padding: 25px;
+        padding: 15px;
     }
 }
