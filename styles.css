@@ -15,8 +15,8 @@ body{
     padding: 25px;
     background-color: inherit;
     color: rgba(0, 0, 0, 10);
-    border-radius: 25px;/*
-    width: 100%;*/
+    border-radius: 25px;
+    width: 100%;
     position: relative;
     top: 30%;
 }
@@ -26,15 +26,15 @@ body{
     top: 50px;
     margin: 0px;
     font-weight: 800;
-    letter-spacing: 1px;/*
-    width: 100%;*/
+    letter-spacing: 1px;
+    width: 100%;
 }
 
 .header2{
     margin: 40px 40px 40px 0px;
     font-weight: 550;
-    font-size: 28px;/*
-    width: 100%;*/
+    font-size: 28px;
+    width: 100%;
 }
 
 .btn{
@@ -64,7 +64,6 @@ body{
 
 @media (min-width:300px) and (max-width:500px) {
     body{
-        width: 100%;
         margin: 0;
         background: linear-gradient(to top left, azure, lightgray, azure);
         height: 100vh;
@@ -79,38 +78,33 @@ body{
     .container{
         box-shadow: 0 6px 10px rgba(0, 0, 0, 10);
         padding: 25px;
-        text-align: center;
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        width: 65%;
+        width: 65%;/*
         position: relative;
-        margin-top: 6%;
+        top: 14%;
+        left: 14px;*/
+        
     }
     
     .header{/*
         position: fixed;
-*/      margin-top: 20px;
+        top: 50px;
+        margin: 0 0 0 10px;*/
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
-        font-size: 17px;
-        text-align: center;
+        font-size: 13px;
         white-space: nowrap;
-        justify-content: center;
-        align-items: center;
     }
     
-    .header2{/*
-        margin: 0px 0px 20px 0px;*/
+    .header2{
+        margin: 0px 0px 20px 0px;
         font-weight: light;
-        justify-content: center;
-        align-items: center;
-        font-size: 14px;/*
+        font-size: 14px;
         width: 50%;
-        margin-left: 45px;*/
+        margin-left: 45px;
         margin-bottom: 40px;
     }
     
@@ -121,7 +115,7 @@ body{
         border-color: rgba(255, 255, 255, 0.3);
         text-transform: uppercase;
         background-color: rgba(255, 255, 255, .6);
-        width: fit-content;
+        width: 2%;
         font-size: 12px;
         font-weight: 600;
         cursor: pointer;
