@@ -133,11 +133,11 @@ body{
 
     .footer{
         align-text: center;
-        margin: 10px;
+        margin: 0px;
         font-size: 18px;
         font-weight: 500;
         color: rgb(56, 52, 52);
-        width: 65%;
+        width: 85%;
         padding: 25px;
     }
 }
