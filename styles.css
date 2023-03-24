@@ -68,36 +68,36 @@ body{
         background: linear-gradient(to top left, azure, lightgray, azure);
         height: 100vh;
         display: grid;
-        grid-template-columns: 1; 
+        grid-template-columns: 1; /*
         align-items: center;
         justify-content: center;
-        text-align: center; 
+        text-align: center; */
         font-family: Georgia, Times, 'Times New Roman', serif;
     }
     
     .container{
         box-shadow: 0 6px 10px rgba(0, 0, 0, 10);
         padding: 25px;
+        text-align:center;
         background-color: inherit;
         color: rgba(0, 0, 0, 10);
         border-radius: 25px;
         justify-content: center;
         align-items: center;
-        width: 65%;/*
+        width: 65%;
         position: relative;
-        top: 14%;
-        left: 14px;*/
-        
+        top: 6%;
     }
     
-    .header{/*
+    .header{
         position: fixed;
-        top: 20px;*/
+        top: 20px;
         margin: 0 0 0 10px;
         font-weight: 800;
         letter-spacing: 1px;
         width: 50%;
         font-size: 17px;
+        text-align: center;
         white-space: nowrap;
         justify-content: center;
         align-items: center;
